@@ -1,0 +1,32 @@
+{
+  "requirements": [
+    {
+      "description": "1 - Endpoint echo retorna 'Olá' com status 200.",
+      "bonus": false
+    },
+    {
+      "description": "2 - Endpoint de criação de pessoa deve inserir uma Pessoa com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "3 - Endpoint de deletar pessoa funciona com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "4 - Endpoint '/dominio/tipolancamento' funciona com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "5 - Endpoint '/dominio/parceiro' funciona com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "6 - Endpoint '/dominio/produto' funciona com sucesso.",
+      "bonus": false
+    },
+    {
+      "description": "7 - As operações de saldo, transferência, resgate e extrato funcionam com sucesso.",
+      "bonus": false
+    }
+  ]
+}

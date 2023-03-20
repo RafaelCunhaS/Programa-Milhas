@@ -1,0 +1,14 @@
+ignore_files:
+  - src/test/
+  - mvnw
+  - .mvn/
+  - src/main/java/com/trybe/acc/java/programamilhas/rest/AutenticacaoResource.java
+  - src/main/java/com/trybe/acc/java/programamilhas/service/AutenticacaoService.java
+  - src/main/java/com/trybe/acc/java/programamilhas/model/
+  - src/main/java/com/trybe/acc/java/programamilhas/exception
+  - src/main/java/com/trybe/acc/java/programamilhas/dominio/
+  - src/main/java/com/trybe/acc/java/programamilhas/dto/
+  - src/main/java/com/trybe/acc/java/programamilhas/util/
+  - src/main/resources/
+  - .dockerignore
+  - README.md
