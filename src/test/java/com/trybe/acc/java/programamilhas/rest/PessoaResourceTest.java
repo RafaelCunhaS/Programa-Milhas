@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.trybe.acc.java.programamilhas.dto.LoginDto;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.response.Response;
-import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
@@ -37,7 +37,6 @@ public class PessoaResourceTest {
   @Order(2)
   @DisplayName("3 - Endpoint de deletar pessoa funciona com sucesso.")
   public void testDelete() {
-
 
     UtilTest util = new UtilTest();
     int numSaldosAntes = util.saldos().size();
